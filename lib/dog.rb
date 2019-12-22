@@ -1,6 +1,6 @@
 class Dog
   
-  def name =_dog_name #setter
+  def name=(dogs_name) #setter
     this_dogs_name = dog_name 
   end 
   

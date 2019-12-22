@@ -1,15 +1,15 @@
 class Dog
-  
-  def name=(dogs_name) #setter
-    @this_dogs_name = dog_name 
-  end 
-  
-  def name #getter
+ 
+  def name=(dogs_name)
+    @this_dogs_name = dogs_name
+  end
+ 
+  def name
     @this_dogs_name
-  end 
-end 
-
-lassie = Dog.new 
+  end
+end
+ 
+lassie = Dog.new
 lassie.name = "Lassie"
-
-lassie.name
+ 
+puts lassie.name

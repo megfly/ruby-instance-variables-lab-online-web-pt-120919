@@ -1,10 +1,10 @@
 class Dog
   
-  def name =_dog_name
+  def name =_dog_name #setter
     this_dogs_name = dog_name 
   end 
   
-  def name 
+  def name #getter
     this_dogs_name
   end 
 end 
